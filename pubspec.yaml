@@ -1,8 +1,8 @@
 name: shadow_text
 description: A custom offset shaded text
-version: 0.0.1
-author: Jeffery
-homepage: https://www.cnblogs.com/jeffery336699/
+version: 0.0.2
+author: Jeffery<talejeffery@gmail.com>
+homepage: https://github.com/Jeffery336699/shadow_text
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

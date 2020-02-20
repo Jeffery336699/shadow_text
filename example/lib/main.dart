@@ -24,6 +24,7 @@ class _HomePageState extends State<HomePage> {
           shadowColor: Colors.blue,
           xTans: 12.0,
           yTans: 12.0,
+          opacity: 0.2,
           shadeBuilder: (BuildContext context, String text, Color color) =>
               Container(
                 child: Text(

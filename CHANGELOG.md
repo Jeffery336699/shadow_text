@@ -1,3 +1,7 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.1] - 2020.2.20
 
-* TODO: Describe initial release.
+* first commit
+
+## [0.0.2]
+
+* Add transparency to shadow text by property opacity

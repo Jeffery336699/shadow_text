@@ -11,6 +11,8 @@ class ShadowText extends StatelessWidget {
   final Color shadowColor;
   final double xTans;
   final double yTans;
+  ///scale [0,1]
+  final double opacity;
   final ShadeBuilder shadeBuilder;
 
   ShadowText(
@@ -19,6 +21,7 @@ class ShadowText extends StatelessWidget {
         this.shadowColor,
         this.xTans,
         this.yTans,
+        this.opacity,
         this.shadeBuilder})
       : assert(text != null),
         assert(textColor != null),
@@ -33,7 +36,7 @@ class ShadowText extends StatelessWidget {
         Transform(
           transform:
           Matrix4.translationValues(xTans ?? 10.0, yTans ?? 10.0, 0.0),
-          child: shadeBuilder(context, text, shadowColor),
+          child: Opacity(opacity: opacity??0.3,child: shadeBuilder(context, text, shadowColor),),
         ),
       ],
     );

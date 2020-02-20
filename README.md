@@ -2,6 +2,27 @@
 
 A custom offset shaded text
 
+# example
+```
+ShadowText(
+          text: 'Shadow Text',
+          textColor: Colors.pink,
+          shadowColor: Colors.blue,
+          xTans: 12.0,
+          yTans: 12.0,
+          opacity: 0.2,
+          shadeBuilder: (BuildContext context, String text, Color color) =>
+              Container(
+                child: Text(
+                  text,
+                  style: TextStyle(color: color,fontSize: 28.0),
+                ),
+              ),
+        )
+```
+## effect
+![效果图](https://raw.githubusercontent.com/Jeffery336699/shadow_text/master/3.png)
+
 ## Getting Started
 
 This project is a starting point for a Dart

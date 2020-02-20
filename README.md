@@ -1,6 +1,6 @@
 # shadow_text
 
-A custom offset shaded text
+A custom offset shaded text. [pub仓库地址](https://pub.dev/packages/shadow_text#-readme-tab-)
 
 # example
 ```
